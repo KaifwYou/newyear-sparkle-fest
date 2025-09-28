@@ -57,6 +57,23 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Celebration colors
+        gold: {
+          DEFAULT: "hsl(var(--gold))",
+          light: "hsl(var(--gold-light))",
+          dark: "hsl(var(--gold-dark))",
+        },
+        midnight: {
+          DEFAULT: "hsl(var(--midnight))",
+          light: "hsl(var(--midnight-light))",
+        },
+        sparkle: "hsl(var(--sparkle))",
+        firework: {
+          red: "hsl(var(--firework-red))",
+          blue: "hsl(var(--firework-blue))",
+          green: "hsl(var(--firework-green))",
+          purple: "hsl(var(--firework-purple))",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
